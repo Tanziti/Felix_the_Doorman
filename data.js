@@ -22,4 +22,42 @@ export const peoples = [
     { name: "dragon", level: 20, health: 300 }
   ];
   
- 
+  export const locations = [
+    {
+      name: "Tralfagar Lobby",
+      "button text": ['Go to desk', 'Go to basement', 'Stand outside', 'Stats'],
+      'button functions': ['goStore', 'goBasement', 'fightDragon', 'viewStats'],
+      text: "You are in the lobby of the Tralfagar"
+    },
+    {
+      name: "apartment",
+      "button text": ["Do house chores", "Order delivery", "Go to the bar", 'Stats'],
+      "button functions": ['buyHealth', 'buyWeapon', 'goTown', 'viewStats'],
+      text: "You are home."
+    },
+    {
+      name: 'basement',
+      "button text": ["Clean/Mop floors", "Speak to Porter", "Knock on Al's door", 'Stats'],
+      "button functions": ['fightSlime', 'fightBeast', 'goTown', 'viewStats'],
+      text: 'You enter the basement. It has a funky smell.'
+    },
+    {
+      name: 'stats',
+      "button text": ["Go Back"],
+      "button functions": ['goBack'],
+      text: 'These are your stats... SLAYYYY'
+    },
+    {
+      name: "lose",
+      "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
+      "button functions": ['restart', 'restart', 'restart'],
+      text: "You die. &#x2620;"
+    },
+    {
+      name: "win",
+      "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
+      "button functions": ['restart', 'restart', 'restart'],
+      text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
+    }
+  ];
+  
