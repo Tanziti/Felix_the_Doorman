@@ -5,9 +5,11 @@ export function update(location) {
     button1.innerText = location['button text'][0];
     button2.innerText = location["button text"][1];
     button3.innerText = location["button text"][2];
+    button4.innerText = location["button text"][3];
     button1.onclick = location["button functions"][0];
     button2.onclick = location["button functions"][1];
     button3.onclick = location["button functions"][2];
+    button4.onclick = location["button functions"][3];
     text.innerText = location.text;
   }
   
@@ -27,4 +29,3 @@ export function update(location) {
   export function showButton(button) {
     button.style.display = 'block';
   }
-  
