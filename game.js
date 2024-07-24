@@ -17,6 +17,7 @@ const monsterStats = document.getElementById('monsterStats');
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 const button3 = document.getElementById('button3');
+const button4 = document.getElementById('button4');
 const text = document.getElementById('text');
 const goldText = document.getElementById('goldText');
 const healthText = document.getElementById('healthText');
