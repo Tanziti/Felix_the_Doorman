@@ -5,10 +5,6 @@ import { update, hideButton, showButton } from './utils.js';
 
 export let day = 1;
 export let action = 9;
-export let charm = 0;
-export let charmXp = 0;
-export let strength = 0;
-export let strengthXp = 0;
 export let xp = 0;
 export let health = 100;
 export let gold = 200;
