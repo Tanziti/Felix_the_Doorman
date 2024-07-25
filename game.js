@@ -19,7 +19,7 @@ const button2 = document.getElementById('button2');
 const button3 = document.getElementById('button3');
 const button4 = document.getElementById('button4');
 const text = document.getElementById('text');
-const moneyText = document.getElementById('goldText');
+const moneyText = document.getElementById('moneyText');
 const healthText = document.getElementById('healthText');
 const xpText = document.getElementById('xpText');
 const monsterName = document.getElementById('monsterName');
@@ -55,7 +55,7 @@ function buyHealth() {
   if (gold >= 10) {
     gold -= 10;
     health += 10;
-    goldText.innerText = gold;
+    moneyText.innerText = gold;
     healthText.innerText = health;
   } else {
     text.innerText = "You do not have enough gold to buy health.";
@@ -67,7 +67,7 @@ function buyWeapon() {
     if (gold >= 30) {
       gold -= 30;
       currentItem++;
-      goldText.innerText = gold;
+      moneyText.innerText = gold;
       let newWeapon = weapons[currentItem].name;
       text.innerText = "You now have a " + newWeapon + ".";
       inventory.push(newWeapon);
@@ -85,7 +85,7 @@ function buyWeapon() {
 function sellWeapon() {
   if (inventory.length > 1) {
     gold += 15;
-    goldText.innerText = gold;
+    moneyText.innerText = gold;
     let currentItem = inventory.shift();
     text.innerText = "You sold a " + currentItem + ".";
     text.innerText += " In your inventory you have: " + inventory + ".";
@@ -161,7 +161,7 @@ function dodge() {
 function defeatMonster() {
   gold += Math.floor(enemys[fighting].level * 6.7);
   xp += enemys[fighting].level;
-  goldText.innerText = gold;
+  moneyText.innerText = gold;
   xpText.innerText = xp;
   update(locations[4]);
 }
@@ -180,7 +180,7 @@ function restart() {
   gold = 50;
   currentItem = 0;
   inventory = ["stick"];
-  goldText.innerText = gold;
+  moneyText.innerText = gold;
   healthText.innerText = health;
   xpText.innerText = xp;
   goTown();
@@ -198,7 +198,7 @@ function pick(guess) {
   if (numbers.indexOf(guess) !== -1) {
     text.innerText += "Right! You win 20 gold.";
     gold += 20;
-    goldText.innerText = gold;
+    moneyText.innerText = gold;
   } else {
     text.innerText += "Wrong! You lose 10 health.";
     health -= 10;
