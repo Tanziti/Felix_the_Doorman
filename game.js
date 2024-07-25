@@ -11,7 +11,7 @@ export let gold = 200;
 export let currentItem = 0;
 export let fighting;
 export let monsterHealth;
-export let inventory = ["stick"];
+export let inventory = ["pen"];
 
 const monsterStats = document.getElementById('monsterStats');
 const button1 = document.getElementById('button1');
@@ -179,7 +179,7 @@ function restart() {
   health = 100;
   gold = 50;
   currentItem = 0;
-  inventory = ["stick"];
+  inventory = ["pen"];
   moneyText.innerText = gold;
   healthText.innerText = health;
   xpText.innerText = xp;

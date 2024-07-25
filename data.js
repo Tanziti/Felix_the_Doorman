@@ -10,6 +10,7 @@ export const peoples = [
   ];
   
   export const weapons = [
+    { name: "pen", power: 2},
     { name: "phone", power: 5 },
     { name: "keys", power: 30 },
     { name: "bat", power: 50 },
