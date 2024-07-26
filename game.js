@@ -108,8 +108,8 @@ function fightSlime() {
 }
 
 function fightBeast() {
-  fighting = 1;
-  goFight();
+  console.log("visiting the porter");
+  update(locations[6])
 }
 
 function fightDragon() {

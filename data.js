@@ -6,7 +6,7 @@ export const peoples = [
     { name: "Clint", type: "postman" },
     { name: "Al", type: "superintendent" },
     { name: "Ben", type: "elevator repairman" },
-    { name: "Chris", type: "postman" }
+    { name: "Chris", type: "contractor" }
   ];
   
   export const weapons = [
@@ -59,6 +59,12 @@ export const peoples = [
       "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
       "button functions": ['restart', 'restart', 'restart'],
       text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
+    },
+    {
+      name: 'porter',
+      "button text": ["chat", "tasks", "leave"],
+      "button functions": ['restart', 'restart', 'restart'],
+      text: 'You enter the porters workshop. "Hey Felix, how can I help ya?"'
     }
   ];
   
