@@ -1,6 +1,14 @@
-// utils.js
+function hideButton(button) {
+  button.style.display = 'none';
+}
 
-export function update(location) {
+function showButton(button) {
+  button.style.display = 'block';
+}
+
+function update(location) {
+  console.log("Updating location:", location); // Log the location data to check if it is correct
+
   monsterStats.style.display = "none";
 
   const buttons = [button1, button2, button3, button4];
@@ -21,21 +29,5 @@ export function update(location) {
   });
 
   text.innerHTML = location.text;
+  console.log("Updated text content:", text.innerHTML); // Log the updated text content
 }
-  
-  export function getMonsterAttackValue(level) {
-    const hit = (level * 5) - (Math.floor(Math.random() * xp));
-    return hit > 0 ? hit : 0;
-  }
-  
-  export function isMonsterHit() {
-    return Math.random() > .2 || health < 20;
-  }
-  
-  export function hideButton(button) {
-    button.style.display = 'none';
-  }
-  
-  export function showButton(button) {
-    button.style.display = 'block';
-  }
