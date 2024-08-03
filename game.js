@@ -11,6 +11,7 @@ export let dollar = 200;
 export let clothes = [];
 export let currentItem = 0;
 export let fighting;
+export let talking;
 export let monsterHealth;
 export let inventory = ["pen"];
 
