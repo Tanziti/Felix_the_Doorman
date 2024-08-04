@@ -12,8 +12,8 @@ export let clothes = [];
 export let currentItem = 0;
 export let fighting;
 export let talking;
-export let level
-export let monsterHealth;
+export let level;
+//got rid of monster health
 export let inventory = ["pen"];
 
 const monsterStats = document.getElementById('monsterStats');
