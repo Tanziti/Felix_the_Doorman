@@ -18,8 +18,8 @@ export const peoples = [
   ];
   
   export const enemys = [
-    { name: "slime", level: 2, health: 15 },
-    { name: "fanged beast", level: 8, health: 60 },
+    { name: "slime", level: 2, health: 15 }, //change to cockroaches
+    { name: "fanged beast", level: 8, health: 60 }, //change to deranged wandering lunatic
     { name: "dragon", level: 20, health: 300 }
   ];
   
