@@ -31,19 +31,19 @@ export const peoples = [
       text: "You are in the lobby of the Tralfagar"
     },
     {
-      name: "apartment",
+      name: "Apartment",
       "button text": ["Do house chores", "Order delivery", "Go to the bar", 'Stats'],
       "button functions": ['buyHealth', 'buyWeapon', 'goTown', 'viewStats'],
       text: "You are home."
     },
     {
-      name: 'basement',
+      name: 'Basement',
       "button text": ["Clean/Mop floors", "Speak to Porter", "Knock on Al's door", 'Stats'],
       "button functions": ['fightSlime', 'fightBeast', 'goTown', 'viewStats'],
       text: 'You enter the basement. It has a funky smell.'
     },
     {
-      name: 'stats',
+      name: 'Stats',
       "button text": ["Go Back"],
       "button functions": ['goBack'],
       text: 'These are your stats... SLAYYYY'
