@@ -49,13 +49,13 @@ export const peoples = [
       text: 'These are your stats... SLAYYYY'
     },
     {
-      name: "lose",
+      name: "Lose",
       "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
       "button functions": ['restart', 'restart', 'restart'],
       text: "You die. &#x2620;"
     },
     {
-      name: "win",
+      name: "Win",
       "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
       "button functions": ['restart', 'restart', 'restart'],
       text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
