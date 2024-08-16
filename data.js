@@ -46,7 +46,7 @@ export const peoples = [
       name: 'Stats',
       "button text": ["Go Back"],
       "button functions": ['goBack'],
-      text: 'These are your stats... SLAYYYY'
+      text: 'These are your stats... SLAYYYY.I should definitely add some stat features'
     },
     {
       name: "Lose",
