@@ -40,6 +40,7 @@ function viewStats() {
 
 function goBack() {
   // goes back to previous location
+  update(locations[0])
 }
 
 function goTown() {
