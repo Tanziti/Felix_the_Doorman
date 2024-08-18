@@ -14,7 +14,7 @@ export let fighting;
 export let talking;
 export let level;
 //got rid of monster health
-export let inventory = ["pen"];
+export let inventory = ["pen","paper"];
 
 const monsterStats = document.getElementById('monsterStats');
 const button1 = document.getElementById('button1');
