@@ -37,10 +37,10 @@ button4.onclick = viewStats;
 function viewStats() {
   update(locations[3]);
 }
-
+//why are functions not being read??
 function goBack() {
   // goes back to previous location
-  update(locations[0])
+  update(locations[0]);
 }
 
 function goTown() {
